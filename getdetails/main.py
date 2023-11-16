@@ -101,4 +101,4 @@ def hello_http(request):
                 else:
                    game_details["boardgamemechanic"] = game_attrib.text
 
-    return (game_details)
+    return (json.dumps(game_details))
