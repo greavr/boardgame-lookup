@@ -6,6 +6,6 @@ steps:
   - deploy
   - getdetails
   - --region=us-west1
-  - --source=.
+  - --source=./getdetails/
   - --trigger-http
   - --runtime=python39

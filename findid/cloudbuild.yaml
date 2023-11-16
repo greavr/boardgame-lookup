@@ -6,6 +6,6 @@ steps:
   - deploy
   - findid
   - --region=us-west1
-  - --source=.
+  - --source=./findid/
   - --trigger-http
   - --runtime=python39
