@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - gcsuploader
+  - --region=us-west1
+  - --source=./gcsuploader/
+  - --trigger-http
+  - --runtime=python39
